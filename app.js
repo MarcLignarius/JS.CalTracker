@@ -25,6 +25,23 @@ const ItemCtrl = (function () {
     getItems: function () {
       return data.items;
     },
+    addItem: function (name, calories) {
+      let id;
+      // Create ID
+      if (data.items.length > 0) {
+        id = data.items[data.items.length - 1].id + 1;
+      } else {
+        id = 0;
+      }
+      // Calories to number
+      calories = parseInt(calories);
+      // Create new item
+      newItem = new Item(id, name, calories);
+      // Add to items array
+      data.items.push(newItem);
+
+      return newItem;
+    },
     logData: function () {
       return data;
     },
@@ -85,7 +102,11 @@ const App = (function (ItemCtrl, UICtrl) {
   const itemAddSubmit = function (e) {
     // Get form input from UI Controller
     const input = UICtrl.getItemInput();
-    console.log(input);
+    // Check for name and calorie input
+    if (input.name !== '' && input.calories !== '') {
+      // Add item
+      const newItem = ItemCtrl.addItem(input.name, input.calories);
+    }
     e.preventDefault();
   };
 
