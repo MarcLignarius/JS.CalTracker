@@ -41,23 +41,29 @@ Alternatively, visit https://marclignarius.github.io/JS.CalTracker/ to see the l
 
 ## User Stories
 
-### Adding a Meal
+### Adding A Meal
 
-|                  Adding A Meal                   |                    Meal Added                    |
-| :----------------------------------------------: | :----------------------------------------------: |
-| ![Image of ss1](https://i.imgur.com/WJ6oBPB.png) | ![Image of ss2](https://i.imgur.com/hfjdSDw.png) |
+|        Adding A Meal         |          Meal Added          |
+| :--------------------------: | :--------------------------: |
+| ![Image of ss1](img/ss1.png) | ![Image of ss2](img/ss2.png) |
 
-### Editing a Meal
+### Editing A Meal
 
-|                  Editing a Meal                  |                   Meal Edited                    |
-| :----------------------------------------------: | :----------------------------------------------: |
-| ![Image of ss4](https://i.imgur.com/G9duiGU.png) | ![Image of ss5](https://i.imgur.com/QMEPvzX.png) |
+|        Editing a Meal        |         Meal Edited          |
+| :--------------------------: | :--------------------------: |
+| ![Image of ss4](img/ss3.png) | ![Image of ss5](img/ss4.png) |
 
-### Deleting a Task
+### Deleting A Meal
 
-|                 Delete the Task                  |                User Confirmation                 |                 App Confirmation                 |
-| :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: |
-| ![Image of ss7](https://i.imgur.com/ouNg4m7.png) | ![Image of ss8](https://i.imgur.com/f6xgAie.png) | ![Image of ss9](https://i.imgur.com/aT8vnoe.png) |
+|       Deleting A Meal        |         Meal Deleted         |
+| :--------------------------: | :--------------------------: |
+| ![Image of ss7](img/ss5.png) | ![Image of ss8](img/ss6.png) |
+
+### Clearing All Meals
+
+|      Deleting All Meals      |      All Meals Deleted       |
+| :--------------------------: | :--------------------------: |
+| ![Image of ss7](img/ss7.png) | ![Image of ss8](img/ss8.png) |
 
 ## Known Bugs
 
